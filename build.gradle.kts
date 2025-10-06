@@ -33,6 +33,8 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("io.kotest:kotest-runner-junit5:6.0.3")
+    testImplementation("io.kotest:kotest-extensions-spring:6.0.3")
+    testImplementation("io.kotest:kotest-assertions-json:6.0.3")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
